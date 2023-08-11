@@ -1,0 +1,129 @@
+body{margin: 10px;}
+.nav{
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+margin: 10px;
+
+}
+ul{display: flex;
+    flex-direction:row;
+    justify-content:end;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: gray;
+    text-decoration: solid;
+}
+ ul > .about , .title ,.company-descript > p ,.stat-title , .stat-1-title{
+    color: rgb(108, 192, 164);
+}
+.logo{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.doclogo{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.description{
+    margin-right: 20%;
+  margin-left: 20%;
+    display: flex;
+flex-direction:row;
+justify-content:space-around;
+align-items: center;
+}
+.description > p , .stat-descript ,.stat-1-descript{
+    color: gray;
+}
+.information{
+    margin-right: 15%;
+    margin-left: 15%;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+}
+.patients{background-color: rgb(116, 192, 167);
+    padding: 20px;
+    border-radius: 5px;
+color: white;
+}
+.doctors{background-color: rgb(132, 194, 230);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.clinics{background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+color: white;}
+
+.company-descript{
+    margin-inline: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.company-descript > p {
+    font-size: 25px;
+   
+}
+.stat-title{  text-align: center;
+    font-size: 30px;}
+.stat-descript{text-align: center;}
+    .statistics{
+        background-color:rgb(192, 242, 248); ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .stat-1 , .stat-2{background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    padding: 5px;}
+    .stat-1-descript{font-size: small;}
+    .stat-1-title{text-align: center;}
+    .statistic1{
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: space-around;
+        gap: 10px;
+    }
+    .statistic{ 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-around;
+        gap: 10px;
+    }
+   
+    .docplanner{
+        height: 50%;
+        width: 50%;
+        margin: 10%;
+        text-align: center;
+vertical-align: middle;
+    }
